@@ -1,0 +1,106 @@
+h1 {
+  font-family: "Quantico", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+h2  {
+  font-family: "Quantico", sans-serif;
+  text-align: center;
+  
+}
+
+form {
+  padding: 20px;
+}
+
+
+.weather {
+  margin: 20px auto;
+  padding: 25px;
+  width: 600px;
+  max-width: 600px;
+  border: 0.25px solid black;
+  border-radius: 5px;
+}
+
+.form-center {
+  display:flex;
+  justify-content: center;
+}
+
+
+.today {
+  margin: 19px;
+  padding: 5px;
+
+}
+
+
+
+.city {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  text-align: center;
+
+}
+
+
+.info {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  text-align: center;
+
+}
+
+.current {
+  text-align: center;
+  margin: 0;
+}
+
+.w-icon {
+  font-size: 30px;
+}
+
+.deg {
+  font-family: "Quantico", sans-serif;
+  font-size: 40px;
+}
+
+.city-photo {
+  display: block;
+  margin: 0 auto;
+  width: 75%;
+  border-radius: 15px;
+  filter: grayscale(100%);
+
+}
+
+.five-days {
+  max-width: 500px;
+  margin: 5px auto;
+}
+
+.card-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.card-text {
+  margin-top: 10px;
+  font-family: "Quantico", sans-serif;
+  font-size: 12px;
+}
+
+card-body {
+  transition: all 200ms ease-in-out;
+}
+.card-body:hover {
+  cursor: pointer;
+  background: rgba(219, 214, 214, 0.432);
+}
