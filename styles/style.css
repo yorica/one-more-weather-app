@@ -15,6 +15,23 @@ form {
   padding: 20px;
 }
 
+footer {
+  font-family: "Quantico", sans-serif;
+  font-size: 12px;
+  text-align: center;
+  color: darkgray;
+}
+
+.source-link {
+  text-decoration: none;
+  color: darkgray;
+  font-weight: bold;
+  transition: all 200ms ease-in-out;
+}
+
+.source-link:hover {
+  color: rgb(68, 66, 66);
+}
 
 .weather {
   margin: 20px auto;
